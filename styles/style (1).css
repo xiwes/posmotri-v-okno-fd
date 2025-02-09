@@ -14,7 +14,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, Helvetica, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -50,7 +50,7 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .visually-hidden {
@@ -120,11 +120,11 @@ ol {
 
 .search-form__textfield {
   width: 225px;
-  border: solid #FFFFFF;
+  border: solid #ffffff;
   border-width: 1px 0px 1px 0px;
   padding: 2.5px 10px 2.5px 0;
   color: #fff;
-  font-family: 'Fira Sans Condensed', Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
@@ -162,7 +162,7 @@ ol {
   width: 15px;
   height: 15px;
 }
- 
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   background-color: #fff;
 }
@@ -170,7 +170,7 @@ ol {
 .button {
   border: 1px solid #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed', Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
@@ -188,20 +188,24 @@ ol {
   height: 34px;
 }
 
-.more-button:hover, .search-form__submit-button:hover {
+.more-button:hover,
+.search-form__submit-button:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.more-button:active, .search-form__submit-button:active {
+.more-button:active,
+.search-form__submit-button:active {
   background-color: #545050;
 }
 
-.more-button:focus, .search-form__submit-button:focus {
+.more-button:focus,
+.search-form__submit-button:focus {
   outline: none;
 }
 
-.more-button:focus-visible, .search-form__submit-button:focus-visible {
+.more-button:focus-visible,
+.search-form__submit-button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
@@ -227,8 +231,8 @@ ol {
 
 .content__list-container {
   position: relative;
-  height: 298px; /* фиксированная высота */
-  width: 399px; /* фиксированная ширина */
+  height: 298px; /* Фиксированная высота */
+  width: 399px; /* Фиксированная ширина */
   overflow: auto; /* исправлено на auto */
 }
 
@@ -268,7 +272,7 @@ ol {
 .content__video-card-title {
   padding-bottom: 6px;
   overflow: hidden;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -279,8 +283,8 @@ ol {
 }
 
 .content__video-card-description {
-  color: #FFFFFF;
-  font-family: 'Fira Sans Condensed', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-family: "Fira Sans Condensed", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;

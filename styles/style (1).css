@@ -89,6 +89,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center; /* выравнивание по центру */
 }
 
 .search-form {
@@ -128,7 +129,7 @@ ol {
   font-size: 18px;
   line-height: 21.6px;
   background-color: #1b1919;
-  appearance: none;
+  appearance: none; /* предсказуемое поведение в разных браузерах */
 }
 
 .search-form__textfield:focus {
@@ -226,8 +227,9 @@ ol {
 
 .content__list-container {
   position: relative;
-  max-height: 298px;
-  overflow: auto;
+  height: 298px; /* фиксированная высота */
+  width: 399px; /* фиксированная ширина */
+  overflow: auto; /* исправлено на auto */
 }
 
 .content__list {
